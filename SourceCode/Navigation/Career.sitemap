@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/CareerDummy.aspx" title="Home" description="A customized software development company in bangladesh." >
+
+    <siteMapNode url="~/Pages/Career/CurrentOpenings.aspx" title="Current Openings"  PageHeader="Current Openings"
+              description="A customized software development company in bangladesh."
+               keywords="Vintage IT, Vintage IT Ltd, software development, website design, HTML Templating, 
+               Domain Registration and Hosting, Photo Retouching, Professional SEO Services,
+               Software company in bangladesh, software company in dhaka" />
+
+      <siteMapNode url="~/Pages/Career/ResumePost.aspx" title="Post Resume"  PageHeader="Post Resume"
+                description="A customized software development company in bangladesh."
+               keywords="Vintage IT, Vintage IT Ltd, software development, website design, HTML Templating, 
+               Domain Registration and Hosting, Photo Retouching, Professional SEO Services,
+               Software company in bangladesh, software company in dhaka"  />
+   
+    </siteMapNode>
+    
+</siteMap>

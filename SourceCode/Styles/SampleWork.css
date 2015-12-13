@@ -1,0 +1,19 @@
+﻿.ClickingPath_before img,.Color_before img,.ImageManupolution_before img,.Masking_before img,.PhotoEditing_before img,.PhotoEnhancing_before img,.PhotoRestoration_before img,.PhotoRetouching_before img{ background-repeat: no-repeat; background-position: -18px -2px;}
+.ClickingPath_after img,.Color_after img,.ImageManupolution_after img,.Masking_after img,.PhotoEditing_after img,.PhotoEnhancing_after img,.PhotoRestoration_after img,.PhotoRetouching_after img{ background-position: -243px -2px;}
+
+.ClickingPath_before img,.ClickingPath_after img{background-image: url('../Images/Services/PhotoRetouching/Large/ClippingPath/clippongpath02.jpg');}
+.Color_before img,.Color_after img{background-image: url('../Images/Services/PhotoRetouching/Large/Color/color.jpg');}
+.ImageManupolution_before img,.ImageManupolution_after img{background-image: url('../Images/Services/PhotoRetouching/Large/ImageManupolution/clippongpath04.jpg');}
+.Masking_before img,.Masking_after img{background-image: url('../Images/Services/PhotoRetouching/Large/Masking/Masking02.jpg');}
+.PhotoEditing_before img,.PhotoEditing_after img{background-image: url('../Images/Services/PhotoRetouching/Large/PhotoEditing/PhotoEditing01.jpg');}
+.PhotoEnhancing_before img,.PhotoEnhancing_after img{background-image: url('../Images/Services/PhotoRetouching/Large/PhotoEnhancing/PhotoEnhancing01.jpg');}
+.PhotoRestoration_before img,.PhotoRestoration_after img{background-image: url('../Images/Services/PhotoRetouching/Large/PhotoRestoration/PhotoRestoration01.jpg');}
+.PhotoRetouching_before img,.PhotoRetouching_after img{background-image: url('../Images/Services/PhotoRetouching/Large/PhotoRetouching/PhotoRetouching01.jpg');}
+
+
+.ClickingPath_beforeX
+{
+    background-image: url('../Images/Services/PhotoRetouching/Large/ClippingPath/clippongpath02.jpg');
+    background-color: red;
+}
+.ClickingPath_afterY img{background-image: url('../Images/Services/PhotoRetouching/Large/ClippingPath/clippongpath02.jpg');}

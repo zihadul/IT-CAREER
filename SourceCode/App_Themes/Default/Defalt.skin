@@ -1,0 +1,111 @@
+ <asp:Image BorderStyle="None" SkinID="SkinLogo" runat="server" ImageUrl="~/App_Themes/Default/images/logo.png"
+                                AlternateText="Logo" ImageAlign="Top" Width="289px" Height="90px"/>
+                                
+<asp:Image AlternateText="" SkinID="SkinSlogan" ImageUrl="~/App_Themes/Default/images/slogan.png" runat="server" Width="335px" Height="38px"/>
+
+<asp:ImageButton runat="server"  SkinID="SkinSeeAllButton" ImageUrl="~/App_Themes/Default/images/SeeAll.gif" ToolTip="See All" />
+<asp:HyperLink SkinID="SeeAll" runat="server" ImageUrl="~/App_Themes/Default/images/SeeAll.gif"  />
+<asp:ImageButton runat="server"  SkinID="SkinDownloadButton2" ImageUrl="~/App_Themes/Default/images/download2.gif" AlternateText="Download" Width="65px" Height="14px"/>
+
+<asp:ImageButton runat="server" SkinID="SkinBuyButton" ImageAlign="AbsMiddle" ImageUrl="~/App_Themes/Default/images/buybutton.gif" 
+AlternateText="Buy This Product" />
+
+<asp:ImageButton runat="server" SkinID="btnSearch" ImageAlign="AbsMiddle" ImageUrl="~/App_Themes/Default/images/search.png" 
+AlternateText="Filter" />
+
+
+<asp:Button runat="server" SkinID="SkinDownLoadButton" ForeColor="#4FA3E4" Font-Bold="true"
+                                        Height="26px" BackColor="#FCFCFA" BorderColor="#B9D9F2" />
+<asp:Image runat="server" SkinID="SkinNav" ImageUrl="~/App_Themes/Default/images/Nav.png" AlternateText="Navigation" />
+<asp:Image runat="server" SkinID="SkinProducts" ImageUrl="~/App_Themes/Default/images/Nav.png" AlternateText="Products"/>
+<asp:Image runat="server" SkinID="SkinUpdates" ImageUrl="~/App_Themes/Default/images/updates.png" AlternateText="Updates"  ImageAlign="Top"  Width="204px" Height="40px"/>
+
+
+<asp:SiteMapPath runat="server"  Font-Names="Trebuchet MS, Verdana" Font-Size="10px" PathSeparator=" » ">
+    <PathSeparatorStyle Font-Bold="True" ForeColor="#1B2024" Font-Size="12px" />
+    <CurrentNodeStyle ForeColor="#1B2024" />
+    <NodeStyle Font-Bold="True" ForeColor="#1B2024" Font-Size="11px" Font-Underline="false" />
+    <RootNodeStyle Font-Bold="True" ForeColor="#1B2024" Font-Size="11px" Font-Underline="false" />
+</asp:SiteMapPath>
+
+<asp:TextBox runat="server" BorderStyle="Solid" BorderWidth="1px" BorderColor="#939393" BackColor="#ffffff" width="400"  SkinID="BigBox"/>
+<asp:TextBox runat="server" BorderStyle="Solid" BorderWidth="1px" BorderColor="#939393" BackColor="#ffffff" width="95" SkinID="SmallBox"/>
+<asp:TextBox runat="server" BorderStyle="Solid" BorderWidth="1px" BorderColor="#939393" BackColor="#ffffff" width="200" />
+<asp:TextBox runat="server" BorderStyle="Solid" BorderWidth="1px" BorderColor="#939393" BackColor="#ffffff" skinid="SkinFreeText" />
+<asp:TextBox runat="server" BorderStyle="Solid" BorderWidth="1px" BorderColor="#939393" BackColor="#ffffff" width="80" skinid="SkinPrice" />
+<asp:TextBox skinid="SkinLoginBox" runat="server" BorderStyle="Solid" BorderWidth="1px" BorderColor="#939393" BackColor="#ffffff" width="160" />
+<asp:TextBox runat="server" BorderStyle="Solid" BorderWidth="1px" BorderColor="#54606B" BackColor="White"  width="180" ForeColor="Black"  SkinID="SearchBox" />
+
+<asp:TextBox runat="server" BorderStyle="Solid" BorderWidth="1px" BorderColor="#939393" BackColor="#ffffff" SkinID="customTextBox" />
+<asp:TextBox runat="server" BorderStyle="Solid" BorderWidth="1px" BorderColor="#939393" BackColor="#ffffff" Width="250" SkinID="Mediumtbx" />
+
+
+<asp:Label ForeColor="Red" runat="server" skinId="skinPageMessage" />
+
+
+<asp:Calendar runat="server" BorderColor="White" NextPrevFormat="FullMonth" Width="200px" BorderWidth="1px" Font-Size="8pt" Font-Names="Verdana" BackColor="White" Height="100px" ForeColor="Black" >
+    <SelectedDayStyle BackColor="#333399" ForeColor="White"  />
+    <TodayDayStyle BackColor="#CCCCCC"  />
+    <OtherMonthDayStyle ForeColor="#999999"  />
+    <NextPrevStyle Font-Bold="True" Font-Size="8pt" ForeColor="#333333" VerticalAlign="Bottom"  />
+    <DayHeaderStyle Font-Bold="True" Font-Size="8pt"  />
+    <TitleStyle BackColor="White" BorderColor="Black" BorderWidth="4px" Font-Bold="True"
+        Font-Size="12pt" ForeColor="#333399"  />
+</asp:Calendar>
+
+<asp:GridView SkinID="SampleGridView" Runat="server" CellPadding="2"  GridLines="Both" >
+    <HeaderStyle forecolor="#FFFFFF" backcolor="#1570b9"   BorderStyle="Solid"
+    HorizontalAlign="Center" BorderColor="Black" BorderWidth="1" />
+    <RowStyle forecolor="#333333" backcolor="#ffffff" CssClass="ItemStyle"  HorizontalAlign="Left"  BorderStyle="Solid" BorderColor="Black" BorderWidth="1" />
+    <AlternatingRowStyle backcolor="#dfe5e6" CssClass="ItemStyle"   HorizontalAlign="Left" BorderStyle="Solid" BorderColor="Black" BorderWidth="1" />
+    <PagerStyle VerticalAlign="Middle" HorizontalAlign="Center"   CssClass="pager"
+     forecolor="#ffffff" backcolor="#1570b9" />
+      <PagerSettings Mode="NumericFirstLast"  FirstPageText="« " LastPageText=" »"  />
+  </asp:GridView>
+
+
+<asp:GridView SkinID="SampleGridView2" Runat="server" CellPadding="2"  GridLines="Both" >
+    <HeaderStyle forecolor="#FFFFFF" backcolor="#1570b9" font-bold="True"  BorderStyle="Solid"
+    HorizontalAlign="Center" BorderColor="Black" BorderWidth="1" />
+    <RowStyle forecolor="#333333" backcolor="#ffffff" CssClass="ItemStyle"  HorizontalAlign="Left"  BorderStyle="Solid" BorderColor="Black" BorderWidth="1" />
+    <AlternatingRowStyle backcolor="#dfe5e6" CssClass="ItemStyle"   HorizontalAlign="Left" BorderStyle="Solid" BorderColor="Black" BorderWidth="1" />
+    <PagerStyle VerticalAlign="Middle" HorizontalAlign="Center"   CssClass="pager"
+     forecolor="#00FFFF" backcolor="#569099" />
+   
+      <PagerSettings Mode="NumericFirstLast" FirstPageText="« " LastPageText=" »"  />
+  </asp:GridView>
+
+<asp:GridView SkinID="SampleGridView3" Runat="server" CellPadding="2"  GridLines="Both" >
+    <HeaderStyle forecolor="#FFFFFF" backcolor="#808080" font-bold="True"  BorderStyle="Solid"
+    HorizontalAlign="Center" BorderColor="Black" BorderWidth="1" />
+
+    <RowStyle forecolor="#333333" backcolor="#ffffff" CssClass="ItemStyle"  HorizontalAlign="Left"  BorderStyle="Solid" BorderColor="Black" BorderWidth="1" />
+    <PagerStyle VerticalAlign="Middle" HorizontalAlign="Center"   CssClass="pager"
+     forecolor="#00FFFF" backcolor="#569099" />
+   
+      <PagerSettings Mode="NumericFirstLast" FirstPageText="« " LastPageText=" »"  />
+  </asp:GridView>
+
+
+ <asp:GridView skinID="skinGridList" CssClass="skinGridList" runat="server" AutoGenerateColumns="False" Width="100%" GridLines="Vertical"
+          HeaderStyle-BackColor="#9ED3FD"           AllowPaging="True" AlternatingRowStyle-BackColor="#E9EEF2">
+          
+           <HeaderStyle HorizontalAlign="Center" CssClass="replyHeader2" />
+                <PagerStyle Font-Bold="False" Font-Names="Trebuchet MS,Verdana" 
+                                Font-Size="10pt" HorizontalAlign="Center" />  
+</asp:GridView>
+
+<asp:ImageButton runat="server" SkinID="SkinMoreButton" ImageUrl="~/App_Themes/Default/images/more.gif"  ToolTip="See More" />
+
+<asp:ImageButton SkinID="ButtonEdit" ToolTip="Edit" AlternateText="Edit" ImageUrl="~/App_Themes/Default/images/btnedit.gif" runat="server" />
+<asp:ImageButton SkinID="ButtonDelete" ToolTip="Delete" AlternateText="Delete" ImageUrl="~/App_Themes/Default/images/btndelete.gif" runat="server" />
+<asp:ImageButton SkinID="ButtonAssign" ToolTip="Assign" AlternateText="Assign" ImageUrl="~/App_Themes/Default/images/btnassign.gif" runat="server" />
+<asp:ImageButton SkinID="ButtonFollowUp" ToolTip="Follow-up" AlternateText="Follow-Up" ImageUrl="~/App_Themes/Default/images/btnfollowup.gif" runat="server" />
+<asp:ImageButton SkinID="ButtonReopen" ToolTip="Re-Open" AlternateText="Re-Open" ImageUrl="~/App_Themes/Default/images/btnreopen.gif" runat="server" />
+<asp:ImageButton SkinID="ButtomView" ToolTip="View" AlternateText="View" ImageUrl="~/App_Themes/Default/images/btnview.gif" runat="server" />
+<asp:ImageButton SkinID="ButtonResetPassword" ToolTip="Reset Password" AlternateText="Reset Password" ImageUrl="~/App_Themes/Default/images/btnresetpassword.gif" runat="server" />
+<asp:ImageButton SkinID="ButtonClose" ToolTip="Close" AlternateText="Close" ImageUrl="~/App_Themes/Default/images/btnclose.gif" runat="server" />
+<asp:ImageButton SkinID="ButtonFilter" ToolTip="Search" AlternateText="Search" ImageUrl="~/App_Themes/Default/images/search2.png" runat="server" />
+
+
+<asp:ImageButton SkinID="btnPrint" ImageUrl="~/App_Themes/Default/images/Print.gif" border="0" runat="server" />

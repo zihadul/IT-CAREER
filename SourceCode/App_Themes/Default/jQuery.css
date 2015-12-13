@@ -1,0 +1,18 @@
+﻿/*Alternating row style start*/
+.highlightrow
+{
+	background-color: #FDECB2 !important;
+	
+}
+.highlightrow a:hover 
+{
+	color:Blue;
+	background-color: #FDECB2 !important;
+	/*background-color:#b4cff8;*/
+}
+/*Alternating row style end*/
+.curFocus
+{
+	background: #fdecb2;
+	color: Green;
+}

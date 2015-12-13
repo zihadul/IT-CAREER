@@ -1,0 +1,106 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin.master.cs" Inherits="Admin" %>
+<%@ Register Src="~/UserControls/MessagePanel.ascx" TagPrefix="VITL" TagName="MessagePanel" %>
+<%@ Register Src="~/UserControls/Menu.ascx" TagName="Menu" TagPrefix="uc" %>
+<%@ Register Src="~/UserControls/Header.ascx" TagName="Header" TagPrefix="uc" %>
+<%@ Register Src="~/UserControls/Footer.ascx" TagName="Footer" TagPrefix="uc" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <link href="../Resources/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../Resources/css/flexslider.css" rel="stylesheet" type="text/css" />
+    <title>IT Career</title>
+    <link rel="SHORTCUT ICON" href="../App_Themes/Default/images/favicon.png">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <script type="text/javascript">
+        function effect() {
+            highlightTextBox("txt");
+            highlightTextBox("tbx");
+            highlightTextBox("ddl");
+            highlightTextBox("chk");
+            highlightTextBox("cbx");
+            highlightTextBox("LoginUser");
+            highlightTextBox("UserName");
+            highlightTextBox("fup");
+            highlightTextBox("UserAddEdit");
+            highlightTextBox("Password");
+            highlightRow("gv");
+        }
+        (document).ready(function () {
+            effect();
+        });
+
+        function pageLoad(sender, args) {
+            if (args.get_isPartialLoad()) {
+                effect();
+            }
+        }
+    </script>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    <center>
+        <div class="MainContent">
+            <table width="100%" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>
+                        <uc:Header runat="server" ID="Header1" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="Content">
+                        <table cellpadding="0" cellspacing="2" width="100%">
+                            <tr>
+                                <td class="NavCol" valign="top">
+                                    <uc:Menu runat="server" ID="Menu11" />
+                                </td>
+                                <td valign="top" class="ContentCol">
+                                    <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                                        <tr>
+                                            <td class="PageTitle">
+                                                <h1>
+                                                    <asp:Literal ID="lit_PageHeader" runat="server" /></h1>
+                                            </td>
+                                            <td align="right">
+                                                    <asp:UpdateProgress ID="UpdateProgress1" runat="server">
+                                                        <ProgressTemplate>
+                                                            <asp:Image ID="Image1" runat="server" AlternateText="Loading........" ImageUrl="~/Images/ajax-loader.gif" Width="128"
+                                                                Height="15" />
+                                                        </ProgressTemplate>
+                                                    </asp:UpdateProgress>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="hr1" colspan="2">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="Space" colspan="2">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                                
+                                                 <VITL:MessagePanel runat="server" ID="MessagePanel1" />
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <asp:ContentPlaceHolder ID="cpnhMain" runat="server">
+                                    </asp:ContentPlaceHolder>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="Footer">
+            <uc:Footer runat="server" ID="footer1" />
+        </div>
+    </center>
+    </form>
+</body>
+</html>

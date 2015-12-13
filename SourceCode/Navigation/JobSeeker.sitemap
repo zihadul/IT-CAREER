@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/JobSeekerDummy.aspx" title="Home" description="A core Software and ICT enabled Service provider of Bangladesh."  keywords=" software development, website design, ,software company" >
+
+    <siteMapNode url="~/Pages/Career/EditResume.aspx" title="Edit Resume"  PageHeader="Edit Resume"
+                description="A core Software and ICT enabled Service provider of Bangladesh."  keywords=" software development, website design, ,software company" />
+
+    <!--<siteMapNode url="~/Pages/Career/CurrentOpenings.aspx" title="Current Openings"  PageHeader="Current Openings"
+                description="A core Software and ICT enabled Service provider of Bangladesh."  keywords=" software development, website design, ,software company" />-->
+
+
+      <siteMapNode url="~/Pages/Career/ViewResume.aspx" title="View Resume"  PageHeader="View Resume"
+                 description="A core Software and ICT enabled Service provider of Bangladesh."  keywords=" software development, website design, ,software company" />
+
+    <siteMapNode url="~/Pages/Career/ChangeProfile.aspx" title="Change Profile"  PageHeader="Change Profile"
+                 description="A core Software and ICT enabled Service provider of Bangladesh."  keywords=" software development, website design, ,software company" />
+
+    <!--<siteMapNode url="~/Pages/Career/ApplyHistory.aspx" title="Apply History"  PageHeader="Apply History"
+                    description="A core Software and ICT enabled Service provider of Bangladesh."  keywords=" software development, website design, ,software company" />-->
+
+
+
+  
+    <siteMapNode url="~/Pages/Security/ChangePassword.aspx" title="Change Password"  
+                 PageHeader="Change Password" description="Software company in bangladesh.A customized software development company in bangladesh."  
+                 keywords="Out sourcing, software, website design, software company in bangladesh, bangladeshi software company, classified, email sender, financial accounting, crm" />
+  
+  
+  </siteMapNode>
+
+</siteMap>

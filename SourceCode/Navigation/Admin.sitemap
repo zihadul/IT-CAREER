@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/AdminDummy.aspx" title="Home" keywords="Out sourcing, software, website design, software company in bangladesh, bangladeshi software company, classified, email sender" description="Software company in bangladesh." >
+
+
+    <!--<siteMapNode url="" title="Job Seeker"
+           PageHeader="Job Seeker"
+           description="Software company in bangladesh."  keywords="Out sourcing, software, website design, software company in bangladesh, bangladeshi software company, classified, email sender, financial accounting, crm" >
+      <siteMapNode url="~/Pages/CareerAdmin/JobAdministration.aspx" title="Job Application"
+             PageHeader="Job Application"
+             description="Software company in bangladesh."  keywords="Out sourcing, software, website design, software company in bangladesh, bangladeshi software company, classified, email sender, financial accounting, crm" />
+
+    </siteMapNode>-->
+
+
+
+    <siteMapNode url="" title="Report"
+           PageHeader="Report"
+           description="Report"  keywords="Resume,Out sourcing, software, website design, software company in bangladesh, bangladeshi software company, classified, email sender, financial accounting, crm" >
+      <siteMapNode url="~/Pages/Admin/ResumeList.aspx" title="Report"
+             PageHeader="Report"
+             description="Report"  keywords="Out sourcing, software, website design, software company in bangladesh, bangladeshi software company, classified, email sender, financial accounting, crm" />
+
+    </siteMapNode>
+
+    <siteMapNode url="" title="Site Administration"  PageHeader="Site Administration" description="Software company in bangladesh."  keywords="Out sourcing, software, website design, software company in bangladesh, bangladeshi software company, classified, email sender, financial accounting, crm" >
+
+      <!--<siteMapNode url="~/Pages/Admin/EmailTemplate.aspx" title="Email Template"
+         PageHeader="Email Template"
+         description="Software company in bangladesh."  keywords="Out sourcing, software, website design, software company in bangladesh, bangladeshi software company, classified, email sender, financial accounting, crm" />-->
+
+      <siteMapNode url="~/Pages/Security/UserAdministration.aspx" title="User"
+           PageHeader="User"
+           description="Software company in bangladesh."  keywords="Out sourcing, software, website design, software company in bangladesh, bangladeshi software company, classified, email sender, financial accounting, crm" />
+     
+    
+    </siteMapNode>
+
+    <siteMapNode url="" title="Content Setup"
+          PageHeader="Content Setup"
+          description="Content Setup"  keywords="Resume,Out sourcing, software, website design, software company in bangladesh, bangladeshi software company, classified, email sender, financial accounting, crm" >
+      <siteMapNode url="~/Pages/Admin/ContentSetup.aspx" title="Content Setup"
+             PageHeader="Content Setup"
+             description="Content Setup"  keywords="Out sourcing, software, website design, software company in bangladesh, bangladeshi software company, classified, email sender, financial accounting, crm" />
+
+    </siteMapNode>
+
+
+
+    <siteMapNode url="" title="Setup"  PageHeader="Setup" description="Setup"  keywords="Out sourcing, software, website design, software company in bangladesh, bangladeshi software company, classified, email sender, financial accounting, crm" >
+
+
+
+      <siteMapNode url="~/Pages/Admin/ArmyPrefixList.aspx" title="Army Prefix"
+          PageHeader="Army Prefix"
+          description="Army Prefix"  keywords="Out sourcing, software, website design, software company in bangladesh, bangladeshi software company, classified, email sender, financial accounting, crm" />
+
+      <siteMapNode url="~/Pages/Admin/Arms.aspx" title="Arms"
+          PageHeader="Arms"
+          description="Arms"  keywords="Out sourcing, software, website design, software company in bangladesh, bangladeshi software company, classified, email sender, financial accounting, crm" />
+
+      <siteMapNode url="~/Pages/Admin/Course.aspx" title="IT Course"
+               PageHeader="IT Course"
+               description="IT Course"  keywords="IT Course,Out sourcing, software, website design, software company in bangladesh, bangladeshi software company, classified, email sender, financial accounting, crm" />
+
+      <siteMapNode url="~/Pages/Admin/Duration.aspx" title="Duration"
+                 PageHeader="Duration"
+                 description="Course Duration"  keywords="Out sourcing,Duration, software, website design, software company in bangladesh, bangladeshi software company, classified, email sender, financial accounting, crm" />
+
+      <siteMapNode url="~/Pages/Admin/Formation.aspx" title="Formation"
+           PageHeader="Formation"
+           description="Formation"  keywords="Out sourcing, software, website design, software company in bangladesh, bangladeshi software company, classified, email sender, financial accounting, crm" />
+
+      <siteMapNode url="~/Pages/Admin/Institution.aspx" title="Institution"
+                 PageHeader="Institution"
+                 description="Training Institution"  keywords="Institution,Out sourcing, software, website design, software company in bangladesh, bangladeshi software company, classified, email sender, financial accounting, crm" />
+
+      <siteMapNode url="~/Pages/Admin/Interest.aspx" title="Interest"
+                PageHeader="Interest"
+                description="Interest"  keywords="Interest,Out sourcing, software, website design, software company in bangladesh, bangladeshi software company, classified, email sender, financial accounting, crm" />
+
+      <siteMapNode url="~/Pages/Admin/Rank.aspx" title="Rank"
+        PageHeader="Rank"
+        description="Army rank"  keywords="Out sourcing, software, website design, software company in bangladesh, bangladeshi software company, classified, email sender, financial accounting, crm" />
+
+
+      <siteMapNode url="~/Pages/Admin/Unit.aspx" title="Unit"
+           PageHeader="Unit"
+           description="Unit"  keywords="Out sourcing, software, website design, software company in bangladesh, bangladeshi software company, classified, email sender, financial accounting, crm" />
+
+      <siteMapNode url="~/Pages/Admin/SliderAdmin.aspx" title="Slider"
+           PageHeader="Slider"
+           description="Slider"  keywords="Out sourcing, software, website design, software company in bangladesh, bangladeshi software company, classified, email sender, financial accounting, crm" />
+
+      <!--<siteMapNode url="~/Pages/Admin/SliderAdmin.aspx" title="Slider"
+                      PageHeader="Slider"
+           description="Slider"  keywords="Out sourcing, software, website design, software company in bangladesh, bangladeshi software company, classified, email sender, financial accounting, crm" />-->
+
+    </siteMapNode>
+    
+    
+    
+    
+    
+    
+
+    <siteMapNode url="~/Pages/Security/ChangePassword.aspx" title="Change Password"
+                 PageHeader="Change Password" description="Software company in bangladesh."
+                 keywords="Out sourcing, software, website design, software company in bangladesh, bangladeshi software company, classified, email sender, financial accounting, crm" />
+
+
+  </siteMapNode>
+
+</siteMap>

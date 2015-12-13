@@ -1,0 +1,879 @@
+body {
+font-family : Trebuchet MS, Verdana;
+margin : 0 0 0 0;
+text-align : center;
+background-color : #F4F5F5;
+background-position : center top;
+background-repeat : repeat-x;
+margin-top : 15px;
+color : #2F3433;
+}
+.enquery {
+text-align : right;
+background-color : #B6D0E7;
+padding : 3px;
+}
+.paddingButtom10
+{
+    padding-bottom:10px;
+}
+
+.tblBorder{
+    border: 1px solid black;
+}
+.enquery a:link, .enquery a:hover, .enquery a:visited {
+color : #000000;
+text-decoration : none;
+}
+.PriceAlign {
+text-align : right;
+}
+textarea {
+width : 100% !important ;
+}
+img {
+padding : 0 0 0 0;
+margin : 0 0 0 0;
+}
+legend {
+color : #1B2024;
+font-weight : bold;
+}
+.MainContent {
+width : 985px;
+text-align : left;
+padding : 0 0 0 0;
+margin : 0 0 0 0;
+border : #162e79 solid 1px;
+}
+.Banner {
+background-image : url(../../App_Themes/Default/images/bannerback.jpg);
+background-repeat : no-repeat;
+height : 179px;
+border-bottom : 2px solid #87bde3;
+}
+.Banner td {
+width : 50%;
+}
+.cell_of_headerLogo {
+padding-left : 15px;
+font-size:45px;
+font-weight:bold;
+color:White;
+}
+.BannerRightTop {
+background-image : url("../../App_Themes/Default/images/curve.gif");
+background-position : right top;
+background-repeat : no-repeat;
+font-size : 11px;
+height : 33px;
+padding-top : 5px;
+padding-right : 2px;
+text-align : right;
+vertical-align : top;
+}
+.BannerRightTop a, .BannerRightTop a:visited {
+color : #306eb4;
+text-decoration : none;
+}
+.BannerRightTop a:hover, .BannerRightTop a:visited:hover {
+text-decoration : underline;
+}
+.BannerRightBottomText {
+font-family : Myriad Pro;
+font-size : 15pt;
+font-weight : bold;
+color : white;
+text-align : right;
+padding-right : 5px;
+height : 135px;
+}
+.MenuBar {
+background-color : #0053a5;
+height : 46px;
+vertical-align : middle;
+}
+.Space {
+height : 4px;
+}
+.productfeture {
+height : 12px;
+}
+.spacer {
+width : 1px;
+}
+.SearchBox {
+padding-right : 5px;
+}
+.SearchBox input[type="submit"] {
+border : #ECE9D8 solid 2px;
+margin-left : 5px;
+background-color : white;
+}
+.SearchBox input[type="submit"]:hover {
+cursor : pointer;
+}
+input[type="submit"]:hover {
+cursor : pointer;
+}
+.MenuSeperatorBar {
+background-image : url(../../App_Themes/Default/images/MenuSeperatorBar.gif);
+background-repeat : repeat-x;
+background-color : #BED7EB;
+height : 40px;
+width : 100%;
+}
+.MenuSeperatorBar td {
+padding-left : 18px;
+}
+.AccountInfo {
+padding-right : 30px;
+color : #1B2024;
+font-weight : normal;
+font-size : 10pt;
+}
+.AccountInfo a, .AccountInfo a:visited {
+color : #1B2024;
+font-weight : normal;
+font-size : 10pt;
+text-decoration : none;
+}
+.AccountInfo a:hover {
+text-decoration : underline;
+}
+.Content {
+padding : 10px 10px 10px 10px;
+background-color : white;
+}
+.Footer {
+padding : 5px 0 5px 0;
+width:985px;
+margin:auto;
+text-align : center;
+color : black;
+font-weight : normal;
+font-size : 8pt;
+}
+.Footer a, .Footer a:visited {
+color : black;
+font-weight : normal;
+font-size : 10pt;
+text-decoration : none;
+}
+.Footer a:hover {
+text-decoration : underline;
+}
+.StaticMenu {
+width : 92px;
+height : 41px;
+border : none;
+color : white;
+background-color : transparent;
+font-weight : normal;
+font-size : 10pt;
+font-family : Nina, Verdana;
+letter-spacing : 1px;
+padding : 0 18px;
+}
+.StaticMenu a {
+padding : 0 !important ;
+}
+.SelectedMenu {
+background-image : url(../../App_Themes/Default/images/menu.png);
+background-position : center;
+background-repeat : no-repeat;
+height : 41px;
+color : #081B72;
+font-size : 10pt;
+font-family : Nina, Verdana;
+letter-spacing : 1px;
+border : none;
+}
+.DynamicMenu {
+background-color : #0053A5;
+height : 26px;
+text-align : left;
+padding-left : 8px;
+padding-right : 8px;
+border : none;
+color : white;
+font-weight : normal;
+font-size : 9pt;
+font-family : Nina, Verdana;
+letter-spacing : 1px;
+min-width : 100px;
+}
+.DynamicMenuHover {
+background-image : url(../../App_Themes/Default/images/dynamicmenuitemBack.gif);
+background-position : center;
+background-repeat : repeat-x;
+color : #081B72;
+}
+.NavCol {
+width : 204px;
+text-align : left;
+}
+.NavCol th {
+vertical-align : top;
+}
+.SpacerDiv {
+height : 10px;
+}
+.ContentCol {
+border : #E8F0F7 solid 1px;
+padding : 5px 5px 5px 5px;
+font-family : Trebuchet MS, Verdana;
+font-weight : normal;
+font-size : 10pt;
+}
+.VerticalSpacerCol {
+width : 10px;
+}
+.HorizontalSpacer {
+height : 35px;
+}
+.MenuLink {
+background-color : #B6D0E7;
+height : 15px;
+color : #1B2024;
+font-family : Trebuchet MS, Verdana;
+font-weight : normal;
+font-size : 10pt;
+}
+.LeftNavTD {
+padding : 3px;
+background-color : #B6D0E7;
+}
+
+.LeftNavTD div:first-child {
+padding-left : 7px;
+}
+.LeftNavTD2 {
+padding : 3px;
+background-color : #B6D0E7;
+}
+
+.LeftNavTD2 div:first-child {
+padding-left : 2px;
+}
+.hr1 {
+height : 2px;
+width : 100%;
+background-color : #ba6114;
+}
+.hr2 {
+height : 1px;
+width : 100%;
+background-color : #EDEDED;
+}
+.PageTitle {
+color : #1B2024;
+font-family : Trebuchet MS, Verdana;
+font-weight : bold;
+}
+.PageTitle h1 {
+font-size : 11pt;
+margin : 0;
+}
+h1, h2, h3 {
+margin : 5px 0 0 0;
+}
+p, ul {
+margin : 0 0 5px 30px;
+list-style-position : inside;
+}
+ul {
+padding : 0 0 0 5px;
+}
+.PageTitle2 {
+color : #2D373F;
+font-family : Trebuchet MS, Verdana;
+font-weight : bold;
+font-size : 11pt;
+}
+.PageTitle2 h1 {
+font-size : 11pt;
+}
+.PageTitle3 {
+color : #000000;
+font-family : Trebuchet MS, Verdana;
+font-weight : bold;
+font-size : 10pt;
+}
+.PageTitle4 {
+color : #387C13;
+font-family : Trebuchet MS, Verdana;
+font-weight : bold;
+font-size : 10pt;
+cursor : pointer;
+padding : 4px 0 4px 0;
+}
+.defaultTable3 td, .defaultTable3 th {
+text-align : left;
+}
+.SpecialText1 {
+color : #DC0709;
+font-family : Trebuchet MS, Verdana;
+font-weight : bold;
+font-size : 10pt;
+}
+.SpecialText2 {
+color : #2F3433;
+font-family : Trebuchet MS, Verdana;
+font-weight : bold;
+font-size : 10pt;
+}
+.ContentText {
+text-align : justify;
+color : #2F3433;
+font-family : Trebuchet MS, Verdana;
+font-weight : normal;
+font-size : 10pt;
+min-height : 100px;
+vertical-align : top;
+}
+.ContentText ul {
+list-style-type : circle;
+}
+.DefaultTable td {
+border : #E8F0F7 solid 1px !important ;
+}
+.DefaultTable {
+border : #E8F0F7 solid 0 !important ;
+border-collapse : collapse;
+}
+.ServiceTable {
+border : #dfdfdf solid 1px;
+}
+.GridRowStyle:hover, .GridAlternateRowStyle:hover, .DomainHostingTable tr:hover, .defaultTable2 tr:hover, .FeatureTable tr:hover, .ProfessionalSEOService td:hover, .selected {
+background-color : #FDECB2 !important ;
+}
+.ServiceTable td {
+vertical-align : top;
+}
+.ImageSlide {
+padding : 3px;
+width : 190px;
+text-align : center;
+background-color : #b6d0e7;
+}
+.UpdatesContentContainer {
+border : gray solid 1px;
+}
+.validatorCalloutHighlight {
+background-color : #FFFACD;
+}
+.watermarked {
+border : #BEBEBE solid 1px;
+background-color : #F0F8FF;
+color : gray;
+}
+.ProductList {
+text-align : justify;
+color : #2F3433;
+font-family : Trebuchet MS, Verdana;
+font-weight : normal;
+font-size : 10pt;
+min-height : 100px;
+text-decoration : none;
+}
+.ProductList ul {
+padding-left : 20px;
+list-style-position : inside;
+list-style-type : circle;
+}
+.product_desc_container {
+padding-left : 4px;
+vertical-align : top;
+}
+.product_desc_container p:first-child, .product_desc_container ul:first-child {
+margin-top : -4px;
+}
+.customSiteMapPathContainer a, .customSiteMapPath a:link, .customSiteMapPath a:visited {
+text-decoration : none;
+color : #1B2024;
+font-size : 12px;
+}
+.NodeSeperatorStyle {
+font-size : 12px;
+}
+.defaultTable2 {
+border-collapse : collapse;
+border-spacing : 0;
+empty-cells : show;
+width : 100%;
+}
+.setBorderTop {
+border-top : 1px solid gray;
+}
+.defaultTable2 td, .defaultTable2 th {
+padding : 4px;
+}
+.GrayBorder, .defaultTable2 td, .defaultTable2 th {
+border : gray solid 1px;
+}
+.GridHeaderStyle, .DomainHostingTable .GridAlternateRowStyle, .GridFooterStyle {
+background-color : #dfdfda;
+}
+.EqualColumnWidth {
+width : 100px;
+}
+.DomainHostingTable td, .DomainHostingTable th, .FeatureTable td, .FeatureTable th {
+text-align : center;
+}
+.FeatureColumn {
+text-align : left !important ;
+}
+.GridHeaderStyle th span {
+font-weight : normal;
+}
+.bg1 {
+background-image : url('../../Images/Services/DomainHosting/DomainHostingColumn1Header.png');
+}
+.bg1 span, .bg2 span, .bg3 span, .bg4 span, .bg5 span {
+font-size : large;
+color : white;
+vertical-align : top;
+}
+.bg1 p, .bg2 p, .bg3 p, .bg4 p, .bg5 p {
+font-size : x-small;
+color : white;
+text-align : center;
+}
+.bg1, .bg2, .bg3, .bg4, .bg5 {
+vertical-align : top;
+padding-top : 36px;
+width : 83px;
+height : 122px;
+background-repeat : no-repeat;
+}
+.bg2 {
+background-image : url('../../Images/Services/DomainHosting/DomainHostingColumn2Header.png');
+}
+.bg3 {
+background-image : url('../../Images/Services/DomainHosting/DomainHostingColumn3Header.png');
+}
+.bg4 {
+background-image : url('../../Images/Services/DomainHosting/DomainHostingColumn4Header.png');
+}
+.bg5 {
+background-image : url('../../Images/Services/DomainHosting/DomainHostingColumn5Header.png');
+}
+.FirstColumnRow {
+background-color : #D8ECF2;
+}
+.SecondColumnRow {
+background-color : #F1E7C7;
+}
+.ThirdColumnRow {
+background-color : #F1D5D5;
+}
+.FourthColumnRow {
+background-color : #E3EBC6;
+}
+.FifthColumnRow {
+background-color : #E5D8F3;
+}
+.FirstColumnAlternateRow {
+background-color : #C4E2EC;
+}
+.SecondColumnAlternateRow {
+background-color : #E9DBAA;
+}
+.ThirdColumnAlternateRow {
+background-color : #E9BFBF;
+}
+.FourthColumnAlternateRow {
+background-color : #D4E0A9;
+}
+.FifthColumnAlternateRow {
+background-color : #D7C4ED;
+}
+div, blockquot {
+font-size : 10pt;
+}
+.ProfessionalSEOService a:link, .ProfessionalSEOService a:visited {
+color : orange;
+float : right;
+padding-right : 20px;
+text-decoration : none;
+}
+.ProfessionalSEOService {
+border-collapse : separate;
+border-spacing : 5px;
+}
+.ProfessionalSEOService td {
+border : #DFDFDF solid 1px;
+padding : 6px;
+}
+.ProfessionalSEOService input[type="image"] {
+float : right;
+}
+.ProfessionalSEOService h3 {
+margin : 0 0;
+}
+.ProfessionalSEOService p {
+margin : 2px 0;
+}
+p, div {
+text-align : justify;
+}
+.ProductDetailContainer {
+vertical-align : top;
+}
+.ProductDetailContainer ul {
+list-style-position : inside;
+margin-top : 0;
+}
+.ProductDetailContainer > table {
+width : 100%;
+border : #E8F0F7 solid 1px !important ;
+background-color : #B6D0E7;
+}
+.ProductDetailContainer > table td {
+padding : 10px !important ;
+}
+.ProductDetailContainer table {
+border-collapse : collapse;
+}
+.AboutUs, .AboutUs p:first-child {
+margin : 0;
+}
+.AboutUs h3, h2, .HtmlTemplate h3 {
+margin-bottom : 0;
+}
+.AboutUs div, .AboutUs ul, .HtmlTemplate ul, .HtmlTemplate p {
+margin : 0 0 0 10px;
+}
+.Updates ul {
+list-style-type : none;
+list-style-image : url('images/navbullet.gif');
+padding-left : 7px;
+}
+.Updates ul li {
+list-style-position : inside;
+}
+.ContentText p:first-child {
+margin-top : 4px;
+}
+.TreeView, .Updates ul {
+margin : 5px 0;
+}
+.CaptchaTextEntry input[type="text"] {
+text-transform : uppercase;
+}
+.pnlSimpleTouch > div {
+padding : 5px;
+}
+.skinGridList th a, .skinGridList th a:visited {
+color : #2F3433;
+text-decoration : none;
+}
+.ProductIcon {
+vertical-align : middle;
+width : 130px;
+border : none;
+}
+.newsticker-jcarousellite * {
+margin : 0;
+padding : 0;
+}
+.newsticker-jcarousellite {
+display : inline-block !important ;
+width : 182px !important ;
+visibility : visible;
+overflow : hidden;
+position : relative;
+z-index : 2;
+left : 0;
+height : 320px !important ;
+padding-top : 5px;
+border : gray solid 1px;
+margin-left : 0;
+margin-top : 2px;
+margin-bottom : 2px;
+padding-left : 4px;
+padding-right : 2px;
+text-align : left;
+}
+.testimonial_list_item {
+overflow : hidden;
+width : 178px !important ;
+height : 310px !important ;
+margin-bottom : 4px;
+padding : 0 0;
+text-align : center;
+vertical-align : middle;
+margin-left : 0;
+}
+.testimonial_list_item div {
+margin : 0 !important ;
+text-align : left !important ;
+}
+.modalBackground {
+background-color : gray;
+opacity : 0.699999988079071044921875;
+}
+.modalPopup {
+background-color : #EEEEEE;
+border : gray solid 1px;
+padding : 3px;
+}
+.HBlanktd {
+height : 5px;
+}
+.paginationArea {
+padding : 5px 0 5px 0;
+background-color : #9ED3FD;
+font-weight : normal;
+text-align : center;
+}
+.paginationArea a, .paginationArea a:visited {
+color : Black;
+font-weight : bold;
+text-decoration : none;
+}
+.activePagination {
+background-color : red;
+}
+.paginationArea2 {
+padding : 5px 0 5px 0;
+background-color : #D9E1E4;
+font-weight : normal;
+text-align : center;
+}
+.paginationArea2 a, .paginationArea2 a:visited {
+color : #267CB2;
+font-weight : bold;
+text-decoration : none;
+}
+.replyHeader {
+font-size : 13px;
+font-family : 'Segoe UI', Tahoma, Arial, Helvetica, sans-serif;
+font-weight : 700;
+color : #267CB2;
+background-color : #D9E1E4;
+height : 37px;
+padding-left : 16px;
+}
+.replyHeader2 {
+font-size : 13px;
+font-family : 'Segoe UI', Tahoma, Arial, Helvetica, sans-serif;
+font-weight : 700;
+color : #267CB2;
+background-color : #D9E1E4;
+height : 37px;
+}
+.jobFields {
+padding : 5px 16px 5px 16px;
+background-color : #F0F3F4;
+}
+.jobFieldsCaption {
+text-decoration : none;
+font-weight : 700;
+color : #267CB2;
+}
+
+.JobDescription
+{
+    padding-left:20px;
+}
+
+.ActiveTab {
+background-image : url(../../App_Themes/Default/images/current.png);
+font-weight : normal;
+text-align : center !important;
+padding-right:3px;
+color : red;
+font-weight : 600;
+font-size : 13px;
+padding-top : 7px;
+}
+
+
+.InActiveTab {
+background-image : url(../../App_Themes/Default/images/inactive.png);
+text-align:center;
+font-weight : normal;
+color : black;
+font-weight : 600;
+font-size : 13px;
+padding-top : 7px;
+padding-right:3px;
+text-decoration:none;
+}
+
+/**/
+
+
+/**/
+.msgConfirmation {
+color : blue;
+}
+.msgError {
+color : red;
+}
+.msgInformation {
+color : green;
+}
+.msgWarning {
+color : blue;
+}
+.CustomerReplyHeader {
+background-color : #EBEBEB;
+vertical-align : central;
+font-size : 13px;
+font-family : 'Segoe UI', Tahoma, Arial, Helvetica, sans-serif;
+font-weight : 700;
+height : 40px;
+padding-left : 10px;
+}
+.CustomerReplyComment {
+background-color : #F5F5F5;
+}
+.SupportReplyHeader {
+background-color : #CFE6FF;
+vertical-align : central;
+font-size : 13px;
+font-family : 'Segoe UI', Tahoma, Arial, Helvetica, sans-serif;
+font-weight : 700;
+height : 40px;
+padding-left : 10px;
+}
+.SupportReplyComment {
+background-color : #EEF6FF;
+}
+.msgConfirmation {
+color : blue;
+font-weight : bold;
+}
+.msgError {
+color : red;
+font-weight : bold;
+}
+.msgInformation {
+color : green;
+font-weight : bold;
+}
+.msgWarning {
+color : blue;
+font-weight : bold;
+}
+.TicketHeader {
+background-color : #306eb4;
+color : white;
+font-weight : bold;
+}
+.padding10 {
+padding : 10px;
+}
+.VerticalMneuHeader {
+background-color : #6B99C4;
+font-size : 20px;
+color : black;
+padding-top : 3px;
+padding-left : 6px;
+}
+.HeaderPadding {
+padding : 10px 0;
+}
+.HeaderPadding2 {
+padding-top : 5px;
+}
+.paddingRight10 {
+padding-right : 10px;
+}
+.UpdateHeader {
+color : black !important ;
+text-decoration : none;
+font-weight : bold;
+font-size : 14px;
+}
+.DemoRequestHeader {
+width : 100px;
+}
+
+
+.UpdateHeader {
+
+    color: black !important;
+    text-decoration: none;
+    font-weight:bold;
+    font-size: 14px;
+}
+
+
+.DemoRequestHeader {
+    width: 100px;
+}
+.Width400 {
+    width: 400px;
+}
+
+.style1
+{
+    width: 136px;
+}
+.style2
+{
+    width: 25%;
+}
+.style3
+{
+    width: 18%;
+}
+
+.Education
+{
+    width:18%;
+}
+.Course
+{
+    width:14%;
+}
+
+/*TAB LINK*/
+
+.TabLink
+{
+    color:  Black;
+	font: Tahoma;
+	text-decoration: none;
+	font-size: small;
+	height:30px;
+}
+.TabLink:link
+{
+	color:  Black;
+	font: Tahoma;
+	text-decoration: none;
+	font-size: small;
+	height:30px;
+}
+.TabLink:visited
+{
+    
+	color:  red;
+	font: Tahoma;
+	text-decoration: none;
+	font-size: small;
+	height:30px;
+}
+.TabLink:active
+{
+    color:  red;
+	font: Tahoma;
+	text-decoration: none;
+	font-size: small;
+	height:30px;
+}
+.TabLink:hover
+{
+	color: red;
+	font: Tahoma;
+	text-decoration: none;
+	font-size: small;
+	height:30px;
+}
+
+/**/

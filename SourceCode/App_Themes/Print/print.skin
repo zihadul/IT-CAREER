@@ -1,0 +1,16 @@
+﻿<asp:GridView  SkinID="SampleGridView" Runat="server" CellPadding="4" width="600px"  AllowPaging="false"  GridLines="Both" >
+    <HeaderStyle forecolor="Black" backcolor="White" 
+    BorderStyle="Solid" BorderColor="Black" BorderWidth="1"  font-size="8pt"  />
+    <RowStyle forecolor="#333333" backcolor="#ffffff"  
+    BorderStyle="Solid" BorderColor="Black" BorderWidth="1" />
+    <AlternatingRowStyle backcolor="White"  
+    BorderStyle="Solid" BorderColor="Black" BorderWidth="1" />
+    <PagerStyle VerticalAlign="Middle" HorizontalAlign="Center" 
+     forecolor="#00FFFF" backcolor="#284775" />
+</asp:GridView>
+
+<asp:Button runat="server" BorderStyle="None"
+ BackColor="White" 
+ ForeColor="#461379" />
+<asp:TextBox runat="server" BorderStyle="Solid" BorderWidth="1px" BorderColor="#939393" BackColor="#ffffff" width="80" SkinID="SmallText" />
+<asp:TextBox runat="server" BorderStyle="Solid" BorderWidth="1px" BorderColor="#939393" BackColor="#ffffff" width="160" SkinID="MediumText" />

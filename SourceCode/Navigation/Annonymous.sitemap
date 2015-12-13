@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/AnnonymousDummy.aspx" title="Home"
+               description="A customized software development company in bangladesh."
+               keywords="Vintage IT, Vintage IT Ltd, software development, website design, HTML Templating, 
+               Domain Registration and Hosting, Photo Retouching, Professional SEO Services,
+               Software company in bangladesh, software company in dhaka" >
+
+
+    <siteMapNode url="~/Customized-Software-Development.aspx" pagetitle="IT Career" title="Home"
+               PageHeader="IT Career"
+               description="A customized software development company in bangladesh."
+               keywords="Vintage IT, Vintage IT Ltd, software development, website design, 
+                 HTML Templating, Domain Registration and Hosting, Photo Retouching, Professional SEO Services" />
+
+    <siteMapNode url="~/Know-VintageIT.aspx" pagetitle="Know about IT Career" title="About Us" PageHeader="About Us"
+                 description="About Vintage IT Bangladesh."
+                 keywords="Vintage IT, Vintage IT Ltd, About Vintage IT, software development, website design, 
+                 Software company in bangladesh, software company"  />
+
+    <siteMapNode url="~/Registration.aspx" pagetitle="Registration" title="Registration" PageHeader="Registration"
+                description="Career Vintage IT Bangladesh."
+                keywords="Career, Vintage IT, Vintage IT Ltd, About Vintage IT, software development, website design, 
+                 Software company in bangladesh, software company"  />
+    
+
+    <siteMapNode url="~/Contact-VintageIT.aspx" pagetitle="Contact-IT Career" title="Contact Us" PageHeader="Contact Us" description="Contact vintage it. Software development. Email Sender."
+                 keywords="Vintage IT, Customized Software Company, Out scourcing, Web Design, HTML Templating, Photo Retouching, SEO" />
+
+
+
+  </siteMapNode>
+
+</siteMap>
